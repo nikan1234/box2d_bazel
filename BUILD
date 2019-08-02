@@ -11,15 +11,9 @@ cc_library (
 cc_library (
     name = "Box2Dlib",
     hdrs = glob([
-        "Common/**/*.h", 
-        "Collision/**/*.h",
-        "Dynamics/**/*.h",
-        "Rope/**/*.h",
+        "Box2D/**/*.h", 
     ]),
     srcs = glob([
-        "Common/**/*.cpp", 
-        "Collision/**/*.cpp",
-        "Dynamics/**/*.cpp",
-        "Rope/**/*.cpp",
+	"Box2D/**/*.cpp", 
     ]),
 )
