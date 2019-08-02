@@ -2,7 +2,7 @@ cc_library (
     name = "Box2D",
     hdrs = ["Box2D.h",],
     deps = [
-        "//Box2d:Box2Dlib",
+        ":Box2Dlib",
     ],
     visibility = ["//visibility:public"],
 )
